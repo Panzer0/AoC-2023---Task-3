@@ -38,7 +38,6 @@ def set_diameter(subject: np.ndarray, coords: (int, int)) -> None:
     }
 
     for target in targets:
-        # Sets the higher value to avoid overwriting of higher priority fields
         subject[target] = 1
 
 
